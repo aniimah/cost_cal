@@ -1,0 +1,42 @@
+:root {
+    --desert-storm: rgba(248, 248, 248, 1);
+    --ocean-green: rgba(48, 174, 114, 1);
+  }
+
+.departments {
+    width:526px;
+    position: absolute;
+    left:128px;
+    margin-top: 60px;
+    
+}
+
+
+
+.overlap:hover {
+    transform: scale(1.1);
+}
+
+.overlap {
+    align-items: flex-start;
+    background-color: var(--desert-storm);
+    display: flex;
+    min-width: 524px;
+    margin-top:30px;
+}
+
+.rectangle {
+    background-color: var(--ocean-green);
+    height: 74px;
+    width: 3px;
+}
+
+.departments__title {
+  color: black;
+  font-family: "Open Sans-Regular", Helvetica;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 14px;
+  
+}
